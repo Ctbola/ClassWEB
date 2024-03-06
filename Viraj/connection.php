@@ -6,7 +6,7 @@ class Database{
 
     public static function setUpConnection(){
         if(!isset(Database::$connection)){
-            Database::$connection = new mysqli("localhost", "root", "26113980@Sl", "viraj_db", "3306");
+            Database::$connection = new mysqli("localhost", "root", "****************", "viraj_db", "3306");
         }
     }
 
